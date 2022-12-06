@@ -1,0 +1,110 @@
+.nav {
+  display: flex;
+  background-color: #00004c;
+  height: 50px;
+}
+.nav .filsnav1 {
+  width: 50%;
+  text-align: center;
+}
+.nav .filsnav1 a {
+  text-decoration: none;
+  color: white;
+}
+.nav .filsnav2 {
+  text-align: center;
+  width: 50%;
+}
+.nav .filsnav2 a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.section1 {
+  background-color: #0000ff;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.section1 p {
+  font-size: xx-large;
+}
+.section1 h1 {
+  font-size: 70px;
+}
+.section1 button {
+  background-color: #ee0979;
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 100px;
+  color: white;
+}
+
+.section2 {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 75px;
+  height: 350px;
+  justify-content: space-between;
+}
+.section2 .fils1section2 {
+  text-align: center;
+  width: 150px;
+}
+.section2 img {
+  border-radius: 360px;
+  width: 350px;
+}
+
+.section3 {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 75px;
+  height: 350px;
+  justify-content: space-between;
+}
+.section3 .fils1section3 {
+  text-align: center;
+  width: 150px;
+}
+.section3 img {
+  border-radius: 360px;
+  width: 350px;
+}
+
+.section4 {
+  display: flex;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 75px;
+  height: 350px;
+  justify-content: space-between;
+}
+.section4 .fils1section4 {
+  text-align: center;
+  width: 150px;
+}
+.section4 img {
+  border-radius: 360px;
+  width: 350px;
+}
+
+footer {
+  background-color: #000000;
+  height: 100px;
+  padding-top: 25px;
+  margin-top: 50px;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
