@@ -47,8 +47,8 @@
 
 .section2 {
   display: flex;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 75px;
   height: 350px;
   justify-content: space-between;
@@ -64,8 +64,8 @@
 
 .section3 {
   display: flex;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 75px;
   height: 350px;
   justify-content: space-between;
@@ -81,8 +81,8 @@
 
 .section4 {
   display: flex;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-top: 75px;
   height: 350px;
   justify-content: space-between;
@@ -105,6 +105,45 @@ footer {
 footer p {
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .section2 .fils1section2 {
+    justify-content: center;
+  }
+  .section3 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10rem;
+    position: relative;
+    top: 500px;
+  }
+  .section3 .fils1section3 {
+    justify-content: center;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    width: 100%;
+    position: relative;
+    top: 350px;
+  }
+  .section4 .fils1section4 {
+    justify-content: center;
+  }
+  footer {
+    position: absolute;
+    top: 2500px;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
